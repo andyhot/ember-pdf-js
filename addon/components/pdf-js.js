@@ -222,7 +222,9 @@ export default Component.extend({
       let uri = this.get('pdf')
       let loadingTask = this.get('pdfLib').getDocument(uri)
       loadingTask.onProgress = (progressData) => {
-        this.set('percentLoaded', 100 * progressData.loaded / progressData.total)
+        if (!this.isDestroyed) {
+          this.set('percentLoaded', 100 * progressData.loaded / progressData.total)
+        }
       }
 
       loadingTask = loadingTask.then((pdfDocument) => {
