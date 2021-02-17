@@ -1,5 +1,7 @@
 # Ember-pdf-js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andyhot/ember-pdf-js.svg)](https://greenkeeper.io/)
+
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Latest NPM release](https://img.shields.io/npm/v/ember-pdf-js.svg)](https://www.npmjs.com/package/ember-pdf-js)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-pdf-js.svg)](http://emberobserver.com/addons/ember-pdf-js)
